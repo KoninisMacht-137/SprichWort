@@ -1136,7 +1136,7 @@ const contents = [
 },
 {
   type: "Special",
-  icon: "🔥",
+  icon: "✧",
   title: "Etwas ganz besonderes",
   text: "Du warst sehr aufmerksam, behalte das bei... Der Entwickler",
   mood: "unerwartet"
