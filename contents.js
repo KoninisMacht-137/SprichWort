@@ -1133,6 +1133,13 @@ const contents = [
   title: "Der Funkenblick",
   text: "Ein Blick auf ein kleines Licht reichte, um wieder Hoffnung zu spüren.",
   mood: "warm & still"
+},
+{
+  type: "Special",
+  icon: "🔥",
+  title: "Etwas ganz besonderes",
+  text: "Du warst sehr aufmerksam, behalte das bei... Der Entwickler",
+  mood: "unerwartet"
 }
 //Hier neue einfügen!
 ];
