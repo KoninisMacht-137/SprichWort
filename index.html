@@ -413,6 +413,38 @@
       color: transparent;
       font-weight: 500;
     }
+    
+    /* ARCHIV – Scrollbereich */
+#archive {
+    max-height: 320px;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+}
+
+/* Schöner Scrollbalken (Chrome/Edge) */
+#archive::-webkit-scrollbar {
+    width: 6px;
+}
+
+#archive::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+/* Einzelne Archiv-Einträge */
+.archive-item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+/* Hover-Effekt */
+.archive-item:hover {
+    background: rgba(255,255,255,0.15);
+    cursor: pointer;
+}
+
 
     /* Animations */
     @keyframes fadeIn {
