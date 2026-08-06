@@ -16,12 +16,23 @@ function showTodayContent() {
     document.getElementById("text").innerText = item.text;
 }
 function buildArchive() {
-    const archive = document.getElementById("archive");
+    const archiveList = document.querySelector(".archive-list");
+    archiveList.innerHTML = ""; // leeren
 
-    contents.forEach((item, i) => {
+    contents.forEach(item => {
         const div = document.createElement("div");
         div.className = "archive-item";
-        div.innerText = `${i+1}. ${item.title} (${item.type})`;
-        archive.appendChild(div);
+
+        div.innerHTML = `
+            <span class="archive-emoji">${item.emoji}</span>
+            <span class="archive-title">${item.title}</span>
+            <span class="archive-type" style="opacity:0.6;">(${item.type})</span>
+        `;
+
+        archiveList.appendChild(div);
     });
 }
+
+// Archiv direkt beim Laden erzeugen
+buildArchive();
+
