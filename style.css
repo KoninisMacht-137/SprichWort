@@ -340,3 +340,9 @@
     .fade-swap {
       animation: fadeIn 0.6s ease-out;
     }
+#main-card {
+  max-width: 640px;   /* oder deine Wunschbreite */
+  margin-left: auto;
+  margin-right: auto;
+}
+
