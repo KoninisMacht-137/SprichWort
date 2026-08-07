@@ -21,5 +21,14 @@ function showTodayContent() {
     document.getElementById("content-date").innerText = item.date || "";
 }
 
-document.getElementById("btn-today").addEventListener("click", showTodayContent);
-document.getElementById("btn-random").addEventListener("click", showRandomContent);
+document.getElementById("btn-today").addEventListener("click", () => {
+    const todayObj = getTodayContent();
+    setCardContent(todayObj.content, todayObj.date);
+});
+
+document.getElementById("btn-random").addEventListener("click", () => {
+    const randomIndex = Math.floor(Math.random() * contents.length);
+    const randomItem = contents[randomIndex];
+    const today = new Date(); // Datum für Anzeige
+    setCardContent(randomItem, today);
+});
