@@ -1141,107 +1141,107 @@ const contents = [
   text: "Du warst sehr aufmerksam, behalte das bei... Der Entwickler",
   mood: "unerwartet"
 },
-{ type: "GESCHICHTE", title: "Der leise Regentropfen", mood: "weich & klar", emoji: "💧", text: "Ein Tropfen fiel vom Himmel und traf genau den Menschen, der ihn brauchte." },
-{ type: "SPRICHWORT", title: "Der stille Mut", mood: "ruhig & tief", emoji: "🪨", text: "Mut beginnt dort, wo niemand klatscht." },
-{ type: "GEDICHT", title: "Windfaden", mood: "sanft & hell", emoji: "🌬️", text: "Ein Faden Wind im Morgengrau, ein kleiner Gruß der Ferne." },
-{ type: "MOMENT", title: "Der verlorene Schatten", mood: "mystisch & weich", emoji: "🌑", text: "Ein Schatten löste sich vom Boden und folgte jemandem, der sich allein fühlte." },
-{ type: "GESCHICHTE", title: "Der warme Atem", mood: "ruhig & warm", emoji: "🔥", text: "Ein Tier atmete ruhig neben einem Menschen — und beide fühlten sich weniger allein." },
-{ type: "SPRICHWORT", title: "Der kleine Funke", mood: "klar & hell", emoji: "✨", text: "Ein Funke reicht, wenn du ihn siehst." },
-{ type: "GEDICHT", title: "Mondglas", mood: "mystisch & leise", emoji: "🌙", text: "Ein Glas voll Mondlicht, still und klar." },
-{ type: "MOMENT", title: "Der vergessene Pfad", mood: "sanft & offen", emoji: "🪵", text: "Ein Pfad zeigte sich erst, als jemand stehen blieb." },
-{ type: "GESCHICHTE", title: "Der Stein im Wasser", mood: "ruhig & tief", emoji: "🪨", text: "Ein Stein sank ins Wasser und nahm eine Sorge mit sich." },
-{ type: "SPRICHWORT", title: "Der ruhige Anfang", mood: "sanft & klar", emoji: "🌅", text: "Manchmal beginnt das Wichtigste ohne Geräusch." },
-{ type: "GESCHICHTE", title: "Der goldene Faden", mood: "warm & weich", emoji: "🧵", text: "Ein Faden Licht verband zwei Menschen, die sich nicht kannten." },
-{ type: "SPRICHWORT", title: "Der Atem der Zeit", mood: "tief & ruhig", emoji: "⏳", text: "Zeit spricht leise, aber deutlich." },
-{ type: "GEDICHT", title: "Sonnenkorn", mood: "hell & warm", emoji: "☀️", text: "Ein Korn Sonne im Taschenlicht." },
-{ type: "MOMENT", title: "Der stille Blick", mood: "weich & offen", emoji: "👁️", text: "Ein Blick traf einen anderen — und beide wussten es." },
-{ type: "GESCHICHTE", title: "Der wandernde Funke", mood: "klar & mystisch", emoji: "⚡", text: "Ein Funke sprang von einer Idee zur nächsten und fand seinen Platz." },
-{ type: "SPRICHWORT", title: "Der Schritt ins Leise", mood: "sanft & tief", emoji: "👣", text: "Wer leise geht, hört mehr." },
-{ type: "GEDICHT", title: "Abendlicht", mood: "weich & warm", emoji: "🌇", text: "Ein Licht, das den Abend trägt." },
-{ type: "MOMENT", title: "Der verlorene Duft", mood: "mild & weich", emoji: "🌸", text: "Ein Duft erinnerte jemanden an etwas, das nie passiert war." },
-{ type: "GESCHICHTE", title: "Der kleine Kreis", mood: "klar & ruhig", emoji: "⭕", text: "Ein Kreis wurde gezogen — und jemand fand darin Ruhe." },
-{ type: "SPRICHWORT", title: "Der sanfte Klang", mood: "weich & hell", emoji: "🔔", text: "Nicht jeder Klang ist für alle bestimmt." },
-{ type: "GESCHICHTE", title: "Der wandernde Schatten", mood: "mystisch & ruhig", emoji: "🌘", text: "Ein Schatten suchte einen neuen Besitzer und fand ihn im Morgenlicht." },
-{ type: "SPRICHWORT", title: "Der stille Funkenflug", mood: "klar & weich", emoji: "🕊️", text: "Funken fliegen auch ohne Feuer." },
-{ type: "GEDICHT", title: "Wasseratem", mood: "ruhig & tief", emoji: "🌊", text: "Ein Atemzug im Wasser, schwerelos und klar." },
-{ type: "MOMENT", title: "Der warme Wind", mood: "hell & sanft", emoji: "🍃", text: "Ein Wind strich über eine Hand und nahm eine Sorge mit." },
-{ type: "GESCHICHTE", title: "Der vergessene Stein", mood: "weich & warm", emoji: "🪨", text: "Ein Stein lag im Gras und wartete auf jemanden, der ihn bemerkte." },
-{ type: "SPRICHWORT", title: "Der Blick nach innen", mood: "tief & ruhig", emoji: "🧘", text: "Wer nach innen schaut, findet außen mehr." },
-{ type: "GEDICHT", title: "Schattenfaden", mood: "mystisch & weich", emoji: "🕸️", text: "Ein Faden Schatten im Morgenlicht." },
-{ type: "MOMENT", title: "Der stille Schritt", mood: "sanft & klar", emoji: "🚶‍♂️", text: "Ein Schritt wurde gemacht, ohne dass jemand es hörte." },
-{ type: "GESCHICHTE", title: "Der wandernde Klang", mood: "weich & offen", emoji: "🎵", text: "Ein Klang suchte ein Ohr und fand ein Herz." },
-{ type: "SPRICHWORT", title: "Der ruhige Funke", mood: "klar & mild", emoji: "💫", text: "Ein Funke muss nicht laut sein." },
-{ type: "GESCHICHTE", title: "Der kleine Mond", mood: "mystisch & weich", emoji: "🌙", text: "Ein kleiner Mond spiegelte sich in einer Pfütze und machte sie besonders." },
-{ type: "SPRICHWORT", title: "Der Atem des Mutes", mood: "tief & warm", emoji: "🔥", text: "Mut atmet langsam." },
-{ type: "GEDICHT", title: "Lichtfeder", mood: "hell & weich", emoji: "🪶", text: "Eine Feder aus Licht, die den Tag berührt." },
+{ type: "GESCHICHTE", title: "Der leise Regentropfen", mood: "weich & klar", icon: "💧", text: "Ein Tropfen fiel vom Himmel und traf genau den Menschen, der ihn brauchte." },
+{ type: "SPRICHWORT", title: "Der stille Mut", mood: "ruhig & tief", icon: "🪨", text: "Mut beginnt dort, wo niemand klatscht." },
+{ type: "GEDICHT", title: "Windfaden", mood: "sanft & hell", icon: "🌬️", text: "Ein Faden Wind im Morgengrau, ein kleiner Gruß der Ferne." },
+{ type: "MOMENT", title: "Der verlorene Schatten", mood: "mystisch & weich", icon: "🌑", text: "Ein Schatten löste sich vom Boden und folgte jemandem, der sich allein fühlte." },
+{ type: "GESCHICHTE", title: "Der warme Atem", mood: "ruhig & warm", icon: "🔥", text: "Ein Tier atmete ruhig neben einem Menschen — und beide fühlten sich weniger allein." },
+{ type: "SPRICHWORT", title: "Der kleine Funke", mood: "klar & hell", icon: "✨", text: "Ein Funke reicht, wenn du ihn siehst." },
+{ type: "GEDICHT", title: "Mondglas", mood: "mystisch & leise", icon: "🌙", text: "Ein Glas voll Mondlicht, still und klar." },
+{ type: "MOMENT", title: "Der vergessene Pfad", mood: "sanft & offen", icon: "🪵", text: "Ein Pfad zeigte sich erst, als jemand stehen blieb." },
+{ type: "GESCHICHTE", title: "Der Stein im Wasser", mood: "ruhig & tief", icon: "🪨", text: "Ein Stein sank ins Wasser und nahm eine Sorge mit sich." },
+{ type: "SPRICHWORT", title: "Der ruhige Anfang", mood: "sanft & klar", icon: "🌅", text: "Manchmal beginnt das Wichtigste ohne Geräusch." },
+{ type: "GESCHICHTE", title: "Der goldene Faden", mood: "warm & weich", icon: "🧵", text: "Ein Faden Licht verband zwei Menschen, die sich nicht kannten." },
+{ type: "SPRICHWORT", title: "Der Atem der Zeit", mood: "tief & ruhig", icon: "⏳", text: "Zeit spricht leise, aber deutlich." },
+{ type: "GEDICHT", title: "Sonnenkorn", mood: "hell & warm", icon: "☀️", text: "Ein Korn Sonne im Taschenlicht." },
+{ type: "MOMENT", title: "Der stille Blick", mood: "weich & offen", icon: "👁️", text: "Ein Blick traf einen anderen — und beide wussten es." },
+{ type: "GESCHICHTE", title: "Der wandernde Funke", mood: "klar & mystisch", icon: "⚡", text: "Ein Funke sprang von einer Idee zur nächsten und fand seinen Platz." },
+{ type: "SPRICHWORT", title: "Der Schritt ins Leise", mood: "sanft & tief", icon: "👣", text: "Wer leise geht, hört mehr." },
+{ type: "GEDICHT", title: "Abendlicht", mood: "weich & warm", icon: "🌇", text: "Ein Licht, das den Abend trägt." },
+{ type: "MOMENT", title: "Der verlorene Duft", mood: "mild & weich", icon: "🌸", text: "Ein Duft erinnerte jemanden an etwas, das nie passiert war." },
+{ type: "GESCHICHTE", title: "Der kleine Kreis", mood: "klar & ruhig", icon: "⭕", text: "Ein Kreis wurde gezogen — und jemand fand darin Ruhe." },
+{ type: "SPRICHWORT", title: "Der sanfte Klang", mood: "weich & hell", icon: "🔔", text: "Nicht jeder Klang ist für alle bestimmt." },
+{ type: "GESCHICHTE", title: "Der wandernde Schatten", mood: "mystisch & ruhig", icon: "🌘", text: "Ein Schatten suchte einen neuen Besitzer und fand ihn im Morgenlicht." },
+{ type: "SPRICHWORT", title: "Der stille Funkenflug", mood: "klar & weich", icon: "🕊️", text: "Funken fliegen auch ohne Feuer." },
+{ type: "GEDICHT", title: "Wasseratem", mood: "ruhig & tief", icon: "🌊", text: "Ein Atemzug im Wasser, schwerelos und klar." },
+{ type: "MOMENT", title: "Der warme Wind", mood: "hell & sanft", icon: "🍃", text: "Ein Wind strich über eine Hand und nahm eine Sorge mit." },
+{ type: "GESCHICHTE", title: "Der vergessene Stein", mood: "weich & warm", icon: "🪨", text: "Ein Stein lag im Gras und wartete auf jemanden, der ihn bemerkte." },
+{ type: "SPRICHWORT", title: "Der Blick nach innen", mood: "tief & ruhig", icon: "🧘", text: "Wer nach innen schaut, findet außen mehr." },
+{ type: "GEDICHT", title: "Schattenfaden", mood: "mystisch & weich", icon: "🕸️", text: "Ein Faden Schatten im Morgenlicht." },
+{ type: "MOMENT", title: "Der stille Schritt", mood: "sanft & klar", icon: "🚶‍♂️", text: "Ein Schritt wurde gemacht, ohne dass jemand es hörte." },
+{ type: "GESCHICHTE", title: "Der wandernde Klang", mood: "weich & offen", icon: "🎵", text: "Ein Klang suchte ein Ohr und fand ein Herz." },
+{ type: "SPRICHWORT", title: "Der ruhige Funke", mood: "klar & mild", icon: "💫", text: "Ein Funke muss nicht laut sein." },
+{ type: "GESCHICHTE", title: "Der kleine Mond", mood: "mystisch & weich", icon: "🌙", text: "Ein kleiner Mond spiegelte sich in einer Pfütze und machte sie besonders." },
+{ type: "SPRICHWORT", title: "Der Atem des Mutes", mood: "tief & warm", icon: "🔥", text: "Mut atmet langsam." },
+{ type: "GEDICHT", title: "Lichtfeder", mood: "hell & weich", icon: "🪶", text: "Eine Feder aus Licht, die den Tag berührt." },
 {
         type: "GESCHICHTE",
         title: "Der wandernde Lichtpunkt",
         mood: "sanft & hell",
-        emoji: "✨",
+        icon: "✨",
         text: "Ein kleiner Lichtpunkt wanderte über die Wand eines alten Hauses. Niemand wusste, woher er kam. Doch jedes Mal, wenn er erschien, blieb jemand stehen und lächelte. Der Lichtpunkt schien zu wissen, wen er besuchen musste – und wann ein stiller Moment gebraucht wurde."
     },
     {
         type: "SPRICHWORT",
         title: "Der Atem des Morgens",
         mood: "frisch & ruhig",
-        emoji: "🌅",
+        icon: "🌅",
         text: "Der Morgen atmet zuerst in dir, bevor er die Welt berührt. Wer diesen Atem spürt, geht leichter durch den Tag."
     },
     {
         type: "GEDICHT",
         title: "Schattenlied",
         mood: "mystisch & weich",
-        emoji: "🌘",
+        icon: "🌘",
         text: "Ein Schatten singt im Abendlicht, ein Ton, den nur die Stille spricht. Er wandert leise durch dein Herz und lässt dort einen kleinen Schmerz – der sich verwandelt, wenn du ruhst, in etwas Warmes, das dich küsst."
     },
     {
         type: "MOMENT",
         title: "Der warme Stein im Gras",
         mood: "weich & warm",
-        emoji: "🪨",
+        icon: "🪨",
         text: "Ein Stein lag im Gras, von der Sonne gewärmt. Jemand hob ihn auf und spürte, wie die Wärme durch die Hand wanderte. Für einen Augenblick fühlte sich die Welt leichter an – als hätte der Stein ein Stück Sommer gespeichert."
     },
     {
         type: "GESCHICHTE",
         title: "Der verlorene Klang",
         mood: "ruhig & tief",
-        emoji: "🎵",
+        icon: "🎵",
         text: "Ein Musiker verlor einen Ton. Er suchte überall – in seinen Instrumenten, in seinen Gedanken, sogar im Wind. Erst als er aufhörte zu suchen, hörte er ihn wieder. Der Ton war nie weg gewesen. Er hatte nur gewartet, bis der Musiker bereit war, ihn zu hören."
     },
     {
         type: "SPRICHWORT",
         title: "Der Schritt durch die Stille",
         mood: "sanft & klar",
-        emoji: "👣",
+        icon: "👣",
         text: "Wer durch die Stille geht, findet Wege, die Lärm niemals zeigt."
     },
     {
         type: "GEDICHT",
         title: "Federlicht",
         mood: "hell & weich",
-        emoji: "🪶",
+        icon: "🪶",
         text: "Eine Feder fällt, so leicht, so still. Sie weiß nicht, wohin sie will. Doch wo sie landet, bleibt ein Hauch von Frieden – ein kleiner Gruß aus sanften Zeiten."
     },
     {
         type: "MOMENT",
         title: "Der Blick zum Himmel",
         mood: "klar & offen",
-        emoji: "☁️",
+        icon: "☁️",
         text: "Ein Mensch sah in den Himmel und bemerkte eine Wolke, die aussah wie ein Herz. Für einen Moment fühlte er sich verbunden mit etwas Größerem – als hätte der Himmel ihm zugezwinkert."
     },
     {
         type: "GESCHICHTE",
         title: "Der wandernde Faden",
         mood: "mystisch & warm",
-        emoji: "🧵",
+        icon: "🧵",
         text: "Ein Faden wanderte durch die Luft, als hätte er ein eigenes Ziel. Er legte sich auf die Schulter eines Menschen, der gerade Trost brauchte. Niemand verstand, wie ein Faden trösten konnte – aber der Mensch fühlte sich plötzlich weniger allein."
     },
     {
         type: "SPRICHWORT",
         title: "Der Funke im Dunkel",
         mood: "tief & ruhig",
-        emoji: "💫",
+        icon: "💫",
         text: "Auch im tiefsten Dunkel wartet ein Funke darauf, gesehen zu werden."
     },
 
@@ -1249,70 +1249,70 @@ const contents = [
         type: "GESCHICHTE",
         title: "Der kleine Mondstein",
         mood: "mystisch & weich",
-        emoji: "🌙",
+        icon: "🌙",
         text: "Ein Kind fand einen Stein, der im Mondlicht glitzerte. Es nahm ihn mit nach Hause und legte ihn unter sein Kissen. In dieser Nacht träumte es von einem Ort, an dem jeder Gedanke ein kleines Licht war. Am Morgen war der Stein nicht mehr besonders – aber der Traum blieb."
     },
     {
         type: "SPRICHWORT",
         title: "Der Atem der Ruhe",
         mood: "sanft & tief",
-        emoji: "🌫️",
+        icon: "🌫️",
         text: "Ruhe ist nicht die Abwesenheit von Geräusch, sondern die Anwesenheit von Frieden."
     },
     {
         type: "GEDICHT",
         title: "Wasserlied",
         mood: "ruhig & klar",
-        emoji: "🌊",
+        icon: "🌊",
         text: "Das Wasser singt ein leises Lied, das nur der hört, der langsam geht. Es trägt dich fort, es trägt dich heim – und macht dein Herz ein wenig fein."
     },
     {
         type: "MOMENT",
         title: "Der warme Windstoß",
         mood: "hell & weich",
-        emoji: "🍃",
+        icon: "🍃",
         text: "Ein Windstoß strich über die Haut eines Menschen und erinnerte ihn an einen Sommer, den er fast vergessen hatte. Für einen Moment war alles wieder leicht."
     },
     {
         type: "GESCHICHTE",
         title: "Der wandernde Kreis",
         mood: "klar & ruhig",
-        emoji: "⭕",
+        icon: "⭕",
         text: "Ein Kreis wurde in den Sand gezeichnet. Der Wind verwischte ihn, doch jemand zeichnete ihn erneut. So entstand ein stilles Spiel zwischen Mensch und Natur – ein Spiel, das niemand gewann, aber beide beruhigte."
     },
     {
         type: "SPRICHWORT",
         title: "Der Blick ins Weiche",
         mood: "mild & warm",
-        emoji: "🌸",
+        icon: "🌸",
         text: "Weiches trägt weiter als Hartes – denn Weiches passt sich an."
     },
     {
         type: "GEDICHT",
         title: "Mondatem",
         mood: "mystisch & ruhig",
-        emoji: "🌙",
+        icon: "🌙",
         text: "Der Mond atmet leise ein, und plötzlich fühlt sich alles klein. Doch in der Kleinheit liegt ein Licht, das durch die Dunkelheit bricht."
     },
     {
         type: "MOMENT",
         title: "Der verlorene Ton",
         mood: "sanft & offen",
-        emoji: "🎶",
+        icon: "🎶",
         text: "Ein Ton blieb im Raum hängen, als hätte er vergessen, wohin er wollte. Jemand hörte ihn – und fühlte sich verstanden."
     },
     {
         type: "GESCHICHTE",
         title: "Der wandernde Funken",
         mood: "hell & klar",
-        emoji: "⚡",
+        icon: "⚡",
         text: "Ein Funken sprang von einer Idee zur nächsten. Er suchte einen Menschen, der ihn festhalten konnte. Als er ihn fand, entstand etwas Neues – etwas, das vorher unmöglich schien."
     },
     {
         type: "SPRICHWORT",
         title: "Der Atem des Lichts",
         mood: "hell & ruhig",
-        emoji: "🔆",
+        icon: "🔆",
         text: "Licht atmet, wenn du es lässt."
     },
 
@@ -1320,49 +1320,49 @@ const contents = [
         type: "GESCHICHTE",
         title: "Der wandernde Schattenflug",
         mood: "mystisch & weich",
-        emoji: "🌘",
+        icon: "🌘",
         text: "Ein Schatten löste sich vom Boden und flog über die Wiese. Er suchte jemanden, der ihn bemerkte. Als ein Mensch stehen blieb und lächelte, setzte sich der Schatten neben ihn – und beide fühlten sich weniger allein."
     },
     {
         type: "SPRICHWORT",
         title: "Der Funke im Morgen",
         mood: "hell & warm",
-        emoji: "🌅",
+        icon: "🌅",
         text: "Der Morgen trägt Funken, die nur der sieht, der früh genug aufsteht."
     },
     {
         type: "GEDICHT",
         title: "Sonnenfaden",
         mood: "warm & weich",
-        emoji: "☀️",
+        icon: "☀️",
         text: "Ein Faden Sonne im Wind, ein Gruß, der dich von innen findet."
     },
     {
         type: "MOMENT",
         title: "Der wandernde Ton",
         mood: "sanft & ruhig",
-        emoji: "🎵",
+        icon: "🎵",
         text: "Ein Ton wanderte durch den Raum und fand ein Ohr, das ihn brauchte."
     },
     {
         type: "GESCHICHTE",
         title: "Der stille Kreisflug",
         mood: "ruhig & klar",
-        emoji: "⭕",
+        icon: "⭕",
         text: "Ein Kreis flog durch die Luft und landete sanft auf der Hand eines Menschen. Er blieb dort – und der Mensch fühlte sich plötzlich leichter."
     },
     {
         type: "SPRICHWORT",
         title: "Der Blick ins Sanfte",
         mood: "weich & mild",
-        emoji: "🌸",
+        icon: "🌸",
         text: "Sanftes trägt weiter als Hartes."
     },
     {
         type: "GEDICHT",
         title: "Mondlichtfaden",
         mood: "mystisch & hell",
-        emoji: "🌙",
+        icon: "🌙",
         text: "Ein Faden Mondlicht im Dunkel, ein Gruß aus der Ferne."
     }
 //Hier neue einfügen!
