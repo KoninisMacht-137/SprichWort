@@ -99,6 +99,12 @@
       }
     }
 
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
     .card {
       position: relative;
       background: var(--card-bg);
@@ -125,13 +131,6 @@
     .card-inner {
       position: relative;
       z-index: 1;
-    }
-
-    /* Zentrierung der Tageskarte */
-    .center-wrapper {
-       display: flex;
-       justify-content: center;
-       width: 100%;
     }
 
     .card-header {
