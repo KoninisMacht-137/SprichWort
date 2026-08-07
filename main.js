@@ -32,3 +32,21 @@ document.getElementById("btn-random").addEventListener("click", () => {
     const today = new Date(); // Datum für Anzeige
     setCardContent(randomItem, today);
 });
+window.addEventListener("DOMContentLoaded", () => {
+  const btnToday = document.getElementById("btn-today");
+  const btnRandom = document.getElementById("btn-random");
+
+  console.log("Buttons gefunden:", btnToday, btnRandom); // Test in der Konsole
+
+  btnToday.addEventListener("click", () => {
+    const todayObj = getTodayContent();
+    setCardContent(todayObj.content, todayObj.date);
+  });
+
+  btnRandom.addEventListener("click", () => {
+    const randomIndex = Math.floor(Math.random() * contents.length);
+    const randomItem = contents[randomIndex];
+    const today = new Date();
+    setCardContent(randomItem, today);
+  });
+});
