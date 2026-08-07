@@ -93,13 +93,6 @@
       text-transform: uppercase;
     }
 
-    .content-wrapper {
-      display: grid;
-      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
-      gap: 24px;
-      align-items: stretch;
-    }
-
     @media (max-width: 820px) {
       .content-wrapper {
         grid-template-columns: minmax(0, 1fr);
