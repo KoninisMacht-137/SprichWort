@@ -20,3 +20,6 @@ function showTodayContent() {
     document.getElementById("content-icon").innerText = item.icon;
     document.getElementById("content-date").innerText = item.date || "";
 }
+
+document.getElementById("btn-today").addEventListener("click", showTodayContent);
+document.getElementById("btn-random").addEventListener("click", showRandomContent);
