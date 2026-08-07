@@ -127,6 +127,13 @@
       z-index: 1;
     }
 
+    /* Zentrierung der Tageskarte */
+    .center-wrapper {
+       display: flex;
+       justify-content: center;
+       width: 100%;
+    }
+
     .card-header {
       display: flex;
       align-items: center;
@@ -334,10 +341,3 @@
     .fade-swap {
       animation: fadeIn 0.6s ease-out;
     }
-
-/* Zentrierung der Tageskarte */
-.center-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
