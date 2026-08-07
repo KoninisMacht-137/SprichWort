@@ -35,4 +35,3 @@ function buildArchive() {
 
 // Archiv direkt beim Laden erzeugen
 buildArchive();
-
